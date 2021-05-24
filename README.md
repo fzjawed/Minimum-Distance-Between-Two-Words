@@ -4,6 +4,8 @@
 
 This one really twisted my brain - but it isn't that hard. When I first saw it I knew I wanted to convert the string into a list and I was right about that. So my first code had a for loop that would store the index when the last occurence of both the words is found and subtract them - however this was because I was trying to work on getting the "correct" answer for a single test case and wasn't considering all the testcases.
 
+***Question: Given the strings text, word0, and word1, return the smallest distance between any two occurrences of word0 and word1 in text, measured in number of words in between. If either word0 or word1 doesn't appear in text, return -1.***
+
 After running into the errors I tried to split it into cases by checking if both words were next to each other and then return 0. If not then traverse the list further and store those indexes. However that isn't working either because the order of the letters is not specified. The last statement sounds ambiguous but I guess you'll understand if you look at my code. Bad code tho 💀
 
 
